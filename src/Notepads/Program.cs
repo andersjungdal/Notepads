@@ -32,6 +32,7 @@ namespace Notepads
             //    Windows.UI.Xaml.Application.Start(p => new App());
             //}
 
+
             if (activatedArgs is FileActivatedEventArgs)
             {
                 RedirectOrCreateNewInstance();
